@@ -1,0 +1,193 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.mantis {
+    background-color: #6acf55;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ufo-green {
+    background-color: #3dec55;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.electric-green {
+    background-color: #00ff00;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.emerald-background {
+    background-color: #50c878;
+    font-family: 'Barlow', sans-serif;
+}
+
+.spanish-emerald-background {
+    background-color: #009975;
+    font-family: 'Inconsolata', monospace;
+}
+
+.gradient1 {
+    background-image: linear-gradient(to top left, #6acf55, #00ff00);
+    font-family: 'Abel', sans-serif;
+}
+.gradient2 {
+    background-image: linear-gradient(to bottom left, #6acf55, #00ff00);
+    font-family: 'Changa', sans-serif;
+}
+.gradient3 {
+    background-image: linear-gradient(to top right, #6acf55, #00ff00);
+    font-family: 'Manrope', sans-serif;
+}
+.gradient4 {
+    background-image: linear-gradient(to bottom right, #6acf55, #00ff00);
+    font-family: 'Exo 2', sans-serif;
+}
+
+.green-radial {
+    background-image: radial-gradient(circle, #6acf55, #00ff00);
+    font-family: 'DM Mono', monospace;
+}
+
+.reverse-green-radial {
+    background-image: radial-gradient(circle, #00ff00, #6acf55);
+    font-family: 'Cairo', sans-serif;
+}
+
+.onyx-background {
+    background-color: #49494b;
+    font-family: 'Play', sans-serif;
+}
+
+.onyx-radial {
+    background: radial-gradient(circle, #49494b, black);
+    font-family: 'Metrophobic', sans-serif;
+}
+
+.mantis,
+.ufo-green,
+.electric-green,
+.emerald-background,
+.spanish-emerald-background,
+.gradient1,
+.gradient2,
+.gradient3,
+.gradient4,
+.green-radial,
+.reverse-green-radial,
+.onyx-background,
+.onyx-radial {
+    padding: 25px;
+}
+
+.goldi-lots {
+    color: #c7af6b;
+}
+
+.darker-gold {
+    color: #94893d;
+}
+
+.silver-tongue {
+    color: #628078;
+}
+
+.silver-fox {
+    color: #d4d4dc;
+}
+
+.rose-gold {
+    color: #bd8c7d;
+}
+
+.soft-gold {
+    color: #d1bfa7;
+}
+
+.silver {
+    color: #8e8e90;
+}
+
+.onyx {
+    color: #49494b;
+}
+
+.black {
+    color: #000;
+}
+
+.copper {
+    color: #b87333;
+}
+
+.diamond {
+    color: #b9f2ef;
+}
+
+.ruby {
+    color: #9b111e;
+}
+
+.platinum {
+    color: #e5e4e2;
+}
+
+.bronze {
+    color: #b08d57;
+}
+
+.metallic-copper {
+    color: #633d34;
+}
+
+.metallic-sliver {
+    color: #c0c0c0;
+}
+
+.emerald {
+    color: #50c878;
+}
+
+.spanish-emerald {
+    color: #009975;
+}
+
+.sapphire {
+    color: #0f52ba;
+}
+
+.mother-of-pearl {
+    color: #f7edec;
+}
+
+.amber {
+    color: #ffbf00;
+}
+
+.quartz {
+    color: #51484f;
+}
+
+.old-gold {
+    color: #cfb53b;
+}
+
+.vegas-gold {
+    color: #c5b358;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.onyx-background,
+.onyx-radial > h1 {
+    color: #fff;
+}
+
+.onyx-background,
+.onyx-radial > h2 {
+    color: #fff;
+}
